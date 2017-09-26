@@ -36,3 +36,8 @@ The stored data can access through a REST endpoint: http://localhost:3002/list i
 - run "node app.js" or "nodemon app.js" (if you want to automatically restart the app on any change)
 
 **Planned features**
+- add WIFI module
+- change USB to 9V battery for supply
+- create Vue.js app as a view
+- add more Arduino to the service
+- add more sensor to monitor
