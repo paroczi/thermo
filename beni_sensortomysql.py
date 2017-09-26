@@ -35,12 +35,12 @@ while count < 1:
 
 	#
 	#User profile
-	user = "Smaug"
+	user = "name"
 	user_ip = "10.0.1.14"
 
 	#
 	#MySQL upload
-	db = MySQLdb.connect("localhost", "benedek", "benedek8", "ThermoDB")
+	db = MySQLdb.connect("localhost", "name", "pass", "ThermoDB")
 
 	with db:
 		cursor = db.cursor()

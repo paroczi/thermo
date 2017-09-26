@@ -1,8 +1,8 @@
-Ez az otthoni hőmérséklet mérő IoT
+Just an old sketch from a friend
 
-todos:
-- install: express, mongoose
+**Details**
+-
+Thermo service with Raspberry PI, and DHT11 sensor.
+The data is managed through a Python application (required Adafruit_DHT library), and stored in a MySQL database.
 
-Installation:
-# npm i
-# npm start
+THe view is a simply a PHP page.

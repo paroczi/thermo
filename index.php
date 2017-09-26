@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost","root","benedek8","ThermoDB");
+$con=mysqli_connect("localhost","user","pass","ThermoDB");
 // Check connection
 if (mysqli_connect_errno())
 {
