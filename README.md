@@ -3,7 +3,7 @@
 -
 *THis is hobby project based on my interests in IoT.*
 
-*The main goal is a remotely controlled service with 2-3 individual Arduinos with sensors managed by a Raspberry Pi and served in a public domain.*
+*The main goal is a remotely controlled service with 2-3 individual Arduinos with sensors managed by a Raspberry Pi and served in a public domain.
 
 This configuration is monitoring the temperature and humidity with DHT11 sensor on Arduino Nano, and sending the captured data on Serial 9600.
 
@@ -36,3 +36,8 @@ The stored data can access through a REST endpoint: http://localhost:3002/list i
 - run "node app.js" or "nodemon app.js" (if you want to automatically restart the app on any change)
 
 **Planned features**
+- add WIFI module
+- change USB to 9V battery for supply
+- create Vue.js app as a view
+- add more Arduino to the service
+- add more sensor to monitor
