@@ -1,18 +1,9 @@
 {
-  "name": "thermo",
+  "name": "thermo-test",
   "version": "0.1.0",
-  "private": true,
-  "devDependencies": {
-    "react-scripts": "0.8.5"
-  },
   "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "express": "^4.15.5",
+    "mongoose": "^4.11.13",
+    "serialport": "latest"
   }
 }
