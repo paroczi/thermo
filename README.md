@@ -3,7 +3,7 @@
 -
 *THis is hobby project based on my interests in IoT.*
 
-*The main goal is a remotely controlled service with 2-3 individual Arduinos with sensors managed by a Raspberry Pi and served in a public domain.
+*The main goal is a remotely controlled service with 2-3 individual Arduinos with sensors managed by a Raspberry Pi and served in a public domain.*
 
 This configuration is monitoring the temperature and humidity with DHT11 sensor on Arduino Nano, and sending the captured data on Serial 9600.
 
