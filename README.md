@@ -1,8 +1,6 @@
-Ez az otthoni hőmérséklet mérő IoT
+**Details**
+-
 
-todos:
-- install: express, mongoose
-
-Installation:
-# npm i
-# npm start
+Thermo service with Raspberry PI, and DHT11 sensor.
+The data is managed through a Python application, and stored in a MongoDB.
+THe view is a simply react based application.
